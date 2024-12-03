@@ -1,0 +1,6 @@
+.containet__header {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  margin: 1em;
+}

@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+ * {
+  background-color: #232c34;
+  color: #fff;
+  font-family: "Source Code Pro", monospace;
+  margin: 0;
+  padding: 0;
+ }
+
+ h1 {
+  font-size: 58px;
+  color: #04abb3;
+}
+
+ul {
+  display: flex;
+  gap: 1em;
+  list-style-type: none;
+}

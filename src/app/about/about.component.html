@@ -1,0 +1,23 @@
+<section class="about">
+  <div class="about-conteudo" >
+    <div class="about-conteudo2">
+      <h1><strong>ABOUT</strong> ME</h1>
+      <p class="about-conteudo-text" [class.expanded]="!isTruncated"> Olá! Sou Marllon Wendel, desenvolvedor fullstack com experiência em criação de aplicações web modernas, escaláveis e seguras, aplicando minhas habilidades em JavaScript/TypeScript, Angular e Java. Meu foco é construir soluções completas que abrangem tanto o front-end quanto o back-end, sempre buscando eficiência e desempenho.
+
+        Formado como Técnico em Redes de Computadores, venho aprofundando meu conhecimento em desenvolvimento de software por meio de formações especializadas e cursos complementares, incluindo:
+
+        Desenvolvimento de APIs com Node.js e Express.
+        Autenticação, testes e segurança em aplicações Node.js.
+        Arquitetura Serverless e aplicações escaláveis.
+        Modelagem de dados e uso de MongoDB.
+        Java com foco em arquitetura de microsserviços e mensageria com Kafka e RabbitMQ.
+        Gestão ágil e Scrum para otimizar fluxos de trabalho.
+        Tenho experiência com Docker para gestão de containers, Git/GitHub para colaboração, e WebSockets para comunicação em tempo real. Em todos os projetos, busco aplicar as melhores práticas de desenvolvimento, sempre com foco em aprendizado contínuo e evolução profissional.
+      </p>
+      <span class="read-more" (click)="toggleText()">
+        {{isTruncated? 'READ MORE' : 'READ LESS'}}
+      </span>
+    </div>
+  </div>
+  <img  class="about_background" src="/doodle items.svg" alt="">
+</section>
