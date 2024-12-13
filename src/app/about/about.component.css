@@ -17,9 +17,13 @@
 
   .about_background {
     width: 100%;
-    align-self: flex-start; /* Garante que a imagem também seja alinhada à esquerda */
+    align-self: flex-start;
     margin-top: 1rem;
   }
+}
+
+.about {
+  margin-top: 300px;
 }
 
 .about-conteudo-text {
@@ -37,6 +41,7 @@
   -webkit-line-clamp: unset;
   line-clamp: unset;
 }
+
 
 .read-more {
   color: #04abb3;
